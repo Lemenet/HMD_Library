@@ -1,6 +1,16 @@
+/************************************************************************/
+//
+//	作者：黄梦迪
+//
+//	时间：2017/10/03
+//
+//	功能描述：二叉树
+//			
+//			
+/************************************************************************/
 #pragma once
 
-namespace HMDL
+namespace hmdl
 {
 
 	/* 二叉树节点
@@ -32,6 +42,8 @@ namespace HMDL
 	 * 包含数据指针，父节点指针和左右子节点指针 */
 	class BinaryTree
 	{
+
+
 		/* 枚举二叉树的遍历方式
 		 * Front,		//先序遍历
 		 * Middle,		//中序遍历
@@ -64,7 +76,7 @@ namespace HMDL
 		BinaryTree() = default;
 
 		// 获取二叉树深度
-		unsigned int Depth() { return Depth; }
+		unsigned int GetDepth() { return Depth; }
 
 		// 插入新节点
 		virtual bool InsertNode(BinaryTreeNode* InNode);

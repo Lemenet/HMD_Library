@@ -138,9 +138,11 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="DataStructure\Public\BinaryTree.h" />
+    <ClInclude Include="DataStructure\Public\List.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="DataStructure\Private\BinaryTree.cpp" />
+    <ClCompile Include="DataStructure\Private\List.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

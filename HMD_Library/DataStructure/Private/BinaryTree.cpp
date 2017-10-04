@@ -1,6 +1,6 @@
 
 #include "BinaryTree.h"
-using namespace HMDL;
+using namespace hmdl;
 
 
 inline BinaryTreeNode::BinaryTreeNode()

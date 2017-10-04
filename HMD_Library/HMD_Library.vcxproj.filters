@@ -21,9 +21,15 @@
     <ClInclude Include="DataStructure\Public\BinaryTree.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="DataStructure\Public\List.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="DataStructure\Private\BinaryTree.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DataStructure\Private\List.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
